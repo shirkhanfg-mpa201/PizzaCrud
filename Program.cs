@@ -27,7 +27,7 @@ while (!exit)
     Console.Clear();
     switch (choice) { 
         case "1":
-            // GetPizzas();
+            // GetPizzas;
             PrintAllPizzas(connection);
             break;
         case "2":
@@ -107,4 +107,5 @@ static void PrintAllPizzas(SqlConnection connection)
         Console.Write($"\n{row["ID"]}.  {row["Name"]}. {row["Price"]}  {row["IngredientCount"]} ");
     }
     Console.WriteLine("\n");
+
 }
